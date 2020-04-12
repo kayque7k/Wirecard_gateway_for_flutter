@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - MoipSDK (1.0.5)
+  - wirecard (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - MoipSDK (~> 1.0.5)
+  - wirecard (from `.symlinks/plugins/wirecard/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MoipSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  wirecard:
+    :path: ".symlinks/plugins/wirecard/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  MoipSDK: fc743eb2f88be10baece5ba66e074761f6dd38c1
+  wirecard: 773df83302edc66cd74becf1f889f610b8e7c1c1
+
+PODFILE CHECKSUM: 3a38bee685f706e36f8629b8ea7047240d814b12
+
+COCOAPODS: 1.9.1
