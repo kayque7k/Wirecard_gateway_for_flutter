@@ -8,7 +8,7 @@ class Wirecard {
 
   static const MethodChannel _channel = const MethodChannel('wirecard');
 
-  Future<String> encryptCard(CardCredit cardCredit) async {
+  Future<String?> encryptCard(CardCredit cardCredit) async {
     var card = <String, dynamic>{
       'publicKey': cardCredit.publicKey,
       'number': cardCredit.number,
