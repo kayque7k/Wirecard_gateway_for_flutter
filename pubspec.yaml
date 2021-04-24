@@ -1,10 +1,10 @@
-name: wirecard_grampic
+name: wirecard
 description: A new flutter plugin project.
 version: 1.0.0
 homepage: https://github.com/kayque7k/sqlentity.git
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
